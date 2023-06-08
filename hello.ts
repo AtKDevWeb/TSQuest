@@ -11,5 +11,5 @@ function concat(a: string, b: string) {
     return a + b;
 }
 
-const wcs = concat("Wild", concat("Code", "School"));
+const wcs:number = concat("Wild", concat("Code", "School"));
 console.log(wcs);
